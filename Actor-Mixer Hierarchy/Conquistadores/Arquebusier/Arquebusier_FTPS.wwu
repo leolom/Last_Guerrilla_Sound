@@ -11,6 +11,9 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
 						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="FTPS_textures_switchgroup" ID="{CA4ED240-03BA-491A-966E-56E5D8E629F4}" WorkUnitID="{93DF6D09-6A05-4F06-8DCB-79F06FC82FED}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Arquebusier_FTPS_Sand_Rand" ID="{980C7B4B-49AF-4A2B-859C-9C39F6204ED5}" ShortID="30125453">
@@ -95,6 +98,44 @@
 								<ItemRef Name="Arquebusier_FTPS_Water_Rand" ID="{73CDF5AE-C906-4EE6-8D24-0CEC093A558B}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="stone" ID="{F16C1A0C-7DF5-4DB5-8F86-5D68EB71579F}"/>
+								<ItemList>
+									<ItemRef Name="Arquebusier_FTPS_Stone_Rand" ID="{59263662-22C9-4C0E-85DF-1DF68E79385D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="mud" ID="{73E01F28-7CA9-467F-B7C4-7B7AE9F9A39D}"/>
+								<ItemList>
+									<ItemRef Name="Arquebusier_FTPS_Mud_Rand" ID="{A4A77F1B-CC07-43FF-A88E-93D7A317E7CC}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="water" ID="{C77BC12A-E6EF-4519-BB81-FE1C0B2E7372}"/>
+								<ItemList>
+									<ItemRef Name="Arquebusier_FTPS_Water_Rand" ID="{73CDF5AE-C906-4EE6-8D24-0CEC093A558B}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="wood" ID="{CB5B545E-4DDE-49E9-9A22-8269D036649B}"/>
+								<ItemList>
+									<ItemRef Name="Arquebusier_FTPS_Wood_Rand" ID="{6ED5E53E-4FD8-4EA4-8A8F-082811FF196E}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="grass" ID="{A260B866-9E03-4F36-BF60-C4C1AD1DE173}"/>
+								<ItemList>
+									<ItemRef Name="Arquebusier_FTPS_Grass_Rand" ID="{575464A6-CCC5-4BBB-8DAF-D9E854DD3CD0}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="sand" ID="{BC327DF9-2C33-4C92-9937-DD2CB92FEAC1}"/>
+								<ItemList>
+									<ItemRef Name="Arquebusier_FTPS_Sand_Rand" ID="{980C7B4B-49AF-4A2B-859C-9C39F6204ED5}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
 			</ChildrenList>

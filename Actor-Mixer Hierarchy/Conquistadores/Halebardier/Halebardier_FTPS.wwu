@@ -1,6 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{61732D98-D7DB-4471-83B4-9A4FF4AA6BA6}" SchemaVersion="89">
 	<AudioObjects>
-		<WorkUnit Name="Halebardier_FTPS" ID="{61732D98-D7DB-4471-83B4-9A4FF4AA6BA6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Halebardier_FTPS" ID="{61732D98-D7DB-4471-83B4-9A4FF4AA6BA6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Halebardier_FTPS_Switch" ID="{66D4CB4C-F6E8-4323-B876-3C6D2943FAD2}" ShortID="834708093">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="FTPS_textures_switchgroup" ID="{CA4ED240-03BA-491A-966E-56E5D8E629F4}" WorkUnitID="{93DF6D09-6A05-4F06-8DCB-79F06FC82FED}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Halebardier_FTPS_Sand_Rand" ID="{18CDC97B-36C3-4809-AF78-7143BC83856F}" ShortID="1042804695">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Halebardier_FTPS_Wood_Rand" ID="{CC250082-6538-4BCB-BC6A-DE34B5E460DC}" ShortID="1049659722">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Halebardier_FTPS_Stone_Rand" ID="{1B6CBAC4-7821-4E08-B557-579423985AC9}" ShortID="968988983">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Halebardier_FTPS_Grass_Rand" ID="{2DF80B10-3071-424A-991A-3851770E6BB2}" ShortID="822402240">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Halebardier_FTPS_Water_Rand" ID="{D00B72E2-1B8D-4EE0-A230-0CEF0AC735B3}" ShortID="909850862">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Halebardier_FTPS_Mud_Rand" ID="{2558ECA8-6C08-4D1B-A0F6-65D507AB48A1}" ShortID="607985482">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Halebardier_FTPS_Grass_Rand" ID="{2DF80B10-3071-424A-991A-3851770E6BB2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Halebardier_FTPS_Sand_Rand" ID="{18CDC97B-36C3-4809-AF78-7143BC83856F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Halebardier_FTPS_Wood_Rand" ID="{CC250082-6538-4BCB-BC6A-DE34B5E460DC}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Halebardier_FTPS_Mud_Rand" ID="{2558ECA8-6C08-4D1B-A0F6-65D507AB48A1}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Halebardier_FTPS_Stone_Rand" ID="{1B6CBAC4-7821-4E08-B557-579423985AC9}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Halebardier_FTPS_Water_Rand" ID="{D00B72E2-1B8D-4EE0-A230-0CEF0AC735B3}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="stone" ID="{F16C1A0C-7DF5-4DB5-8F86-5D68EB71579F}"/>
+								<ItemList>
+									<ItemRef Name="Halebardier_FTPS_Stone_Rand" ID="{1B6CBAC4-7821-4E08-B557-579423985AC9}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="mud" ID="{73E01F28-7CA9-467F-B7C4-7B7AE9F9A39D}"/>
+								<ItemList>
+									<ItemRef Name="Halebardier_FTPS_Mud_Rand" ID="{2558ECA8-6C08-4D1B-A0F6-65D507AB48A1}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="water" ID="{C77BC12A-E6EF-4519-BB81-FE1C0B2E7372}"/>
+								<ItemList>
+									<ItemRef Name="Halebardier_FTPS_Water_Rand" ID="{D00B72E2-1B8D-4EE0-A230-0CEF0AC735B3}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="wood" ID="{CB5B545E-4DDE-49E9-9A22-8269D036649B}"/>
+								<ItemList>
+									<ItemRef Name="Halebardier_FTPS_Wood_Rand" ID="{CC250082-6538-4BCB-BC6A-DE34B5E460DC}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="grass" ID="{A260B866-9E03-4F36-BF60-C4C1AD1DE173}"/>
+								<ItemList>
+									<ItemRef Name="Halebardier_FTPS_Grass_Rand" ID="{2DF80B10-3071-424A-991A-3851770E6BB2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="sand" ID="{BC327DF9-2C33-4C92-9937-DD2CB92FEAC1}"/>
+								<ItemList>
+									<ItemRef Name="Halebardier_FTPS_Sand_Rand" ID="{18CDC97B-36C3-4809-AF78-7143BC83856F}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
