@@ -34,3 +34,10 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Wwise Cache data
+TPGit_WwiseProject/.cache/
+TPGit_WwiseProject/*.wsettings
+TPGit_WwiseProject/*.validationcache
+TPGit_WwiseProject/*.akd
+TPGit_WwiseProject/*.prof
