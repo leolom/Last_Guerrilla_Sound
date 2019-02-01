@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="89">
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Ambiances\AMB_Alexis.wwu" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Ambiances\AMB_jungle.wwu" DateLow="1549010949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Ambiances\AMB_jungle.wwu" DateLow="1549025196" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Ambiances\AMB_Leo.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Arquebusier\Arquebusier_attacks.wwu" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Arquebusier\Arquebusier_death.wwu" DateLow="1549010949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Arquebusier\Arquebusier_death.wwu" DateLow="1549025196" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Arquebusier\Arquebusier_FTPS.wwu" DateLow="1549010949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Arquebusier\Arquebusier_idle.wwu" DateLow="1549025196" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Halebardier\Halebardier_attacks.wwu" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Halebardier\Halebardier_death.wwu" DateLow="1549010949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Halebardier\Halebardier_death.wwu" DateLow="1549025196" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Halebardier\Halebardier_FTPS.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Missionaries\Missionaries_attacks.wwu" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Missionaries\Missionaries_death.wwu" DateLow="1549010949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Missionaries\Missionaries_death.wwu" DateLow="1549025196" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Conquistadores\Missionaries\Missionaries_FTPS.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Feedback\Alexis.wwu" DateLow="1549010949" DateHigh="0"/>
@@ -20,11 +21,12 @@
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Ghouls\Ghouls_death.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Ghouls\Ghouls_FTPS.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Ghouls\Ghouls_idle.wwu" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_attacks.wwu" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_death.wwu" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_FTPS.wwu" DateLow="1549010949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_attacks.wwu" DateLow="1549025196" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_death.wwu" DateLow="1549025196" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_FTPS.wwu" DateLow="1549025196" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_hits.wwu" DateLow="1549025196" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_idle.wwu" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_spellcast.wwu" DateLow="1549010949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_spellcast.wwu" DateLow="1549025196" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\Shaman\Shaman_spells.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Actor-Mixer Hierarchy\UI\UI.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Attenuations\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
@@ -39,8 +41,8 @@
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Game Parameters\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Interactive Music Hierarchy\Music\Music.wwu" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Last_Guerilla_Wwise.ACFA.wsettings" DateLow="1549010949" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Last_Guerilla_Wwise.wproj" DateLow="1549010949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Last_Guerilla_Wwise.ACFA.wsettings" DateLow="1549025189" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Last_Guerilla_Wwise.wproj" DateLow="1549014683" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Mixing Sessions\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Modulators\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
@@ -51,6 +53,7 @@
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\States\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Switches\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Switches\FTPS_textures.wwu" DateLow="1549025196" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Triggers\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\Virtual Acoustics\Default Work Unit.wwu" DateLow="1549010949" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Augustin\Wwise sessions\Last_Guerilla_Wwise\Actor-Mixer Hierarchy\Conquistadores\Arquebusier\Attack.wwu" DateLow="1548338785" DateHigh="0"/>

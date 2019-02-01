@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E51FB001-C537-4785-9BB8-83844655679E}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Halebardier_idle" ID="{E51FB001-C537-4785-9BB8-83844655679E}" PersistMode="Standalone"/>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16582CF3-728E-45AD-A860-5463D37C794C}" SchemaVersion="89">
+	<States>
+		<WorkUnit Name="Conquistadores_status" ID="{16582CF3-728E-45AD-A860-5463D37C794C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Conquistadores_status_stategroup" ID="{99768060-844A-488E-952F-62B998B3C162}">
+					<ChildrenList>
+						<State Name="None" ID="{791C05D5-81C0-464B-B91C-F4481A099FFA}"/>
+						<State Name="player_spotted" ID="{AD569B33-F4ED-42FE-96BC-341BB573AFF8}"/>
+						<State Name="idle_1" ID="{0C38E2EE-699D-43C4-9ED8-ED192FED93B5}"/>
+						<State Name="idle_2" ID="{9A592CC3-AB31-4368-84CA-4CB265B72C8C}"/>
+						<State Name="idle_5" ID="{55D09CE6-786C-47BA-B350-387D1524A11B}"/>
+						<State Name="idle_10" ID="{E95F985D-E745-4705-8574-2FB2F8DCEDC1}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

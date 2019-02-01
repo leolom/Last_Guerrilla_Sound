@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="AMB_jungle" ID="{E59D141C-914D-4BC6-82C8-7B4794492FEF}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="AMB_jungle_rand" ID="{E3166E26-B6AB-46CB-B9EB-355A15D41B74}" ShortID="940911132">
+				<RandomSequenceContainer Name="AMB_torchs_rand" ID="{A9C2B3AF-9474-446F-8CF2-453C882AFB21}" ShortID="1059936483">
 					<PropertyList>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -17,6 +17,49 @@
 						</Reference>
 					</ReferenceList>
 				</RandomSequenceContainer>
+				<BlendContainer Name="AMB_jungle_blend" ID="{41E33640-5F0D-4720-973B-01398C3C876F}" ShortID="845811505">
+					<PropertyList>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="AMB_jungle_rand_00" ID="{E3166E26-B6AB-46CB-B9EB-355A15D41B74}" ShortID="940911132">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_jungle_rand_01" ID="{ED7AFE2C-A1D4-4501-B758-DAB1B40D3794}" ShortID="280033898">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
