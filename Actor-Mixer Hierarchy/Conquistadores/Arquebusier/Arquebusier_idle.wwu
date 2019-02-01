@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FF9D2AF7-39F2-4CD4-BFF2-F288E4750DCF}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Arquebusier_idle" ID="{FF9D2AF7-39F2-4CD4-BFF2-F288E4750DCF}" PersistMode="Standalone"/>
+	</AudioObjects>
+</WwiseDocument>

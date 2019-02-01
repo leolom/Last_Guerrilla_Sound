@@ -1,6 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0FBFFBE9-F409-44B3-8790-3E3CE741FB23}" SchemaVersion="89">
 	<AudioObjects>
-		<WorkUnit Name="Shaman_FTPS" ID="{0FBFFBE9-F409-44B3-8790-3E3CE741FB23}" PersistMode="Standalone"/>
+		<WorkUnit Name="Shaman_FTPS" ID="{0FBFFBE9-F409-44B3-8790-3E3CE741FB23}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Shaman_FTPS_switch" ID="{A4837D40-8BBF-40AA-82FA-8757ED812A66}" ShortID="228213147">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="FTPS_textures_switchgroup" ID="{CA4ED240-03BA-491A-966E-56E5D8E629F4}" WorkUnitID="{93DF6D09-6A05-4F06-8DCB-79F06FC82FED}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="FTPS_mud_rand" ID="{9B757190-8E08-4EE2-88D7-371A12F6BEE6}" ShortID="783118280">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FTPS_sand_rand" ID="{F9D3D0F1-5A88-4582-8024-C0BFE3D1BF77}" ShortID="447652668">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FTPS_wood_rand" ID="{2303C133-A14D-4E85-A97B-97E922C1AAAC}" ShortID="509423770">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FTPS_grass_rand" ID="{864F71AF-B3C0-4A58-9A1C-237E99649EA8}" ShortID="578331493">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FTPS_stone_rand" ID="{9FEB0677-0B65-4A08-9CF9-E1BACBB4B480}" ShortID="373875168">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FTPS_water_rand" ID="{0081878A-895D-4412-B741-F03718CC9850}" ShortID="316884994">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="FTPS_wood_rand" ID="{2303C133-A14D-4E85-A97B-97E922C1AAAC}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FTPS_stone_rand" ID="{9FEB0677-0B65-4A08-9CF9-E1BACBB4B480}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FTPS_water_rand" ID="{0081878A-895D-4412-B741-F03718CC9850}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FTPS_mud_rand" ID="{9B757190-8E08-4EE2-88D7-371A12F6BEE6}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FTPS_grass_rand" ID="{864F71AF-B3C0-4A58-9A1C-237E99649EA8}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FTPS_sand_rand" ID="{F9D3D0F1-5A88-4582-8024-C0BFE3D1BF77}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="stone" ID="{F16C1A0C-7DF5-4DB5-8F86-5D68EB71579F}"/>
+								<ItemList>
+									<ItemRef Name="FTPS_stone_rand" ID="{9FEB0677-0B65-4A08-9CF9-E1BACBB4B480}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="mud" ID="{73E01F28-7CA9-467F-B7C4-7B7AE9F9A39D}"/>
+								<ItemList>
+									<ItemRef Name="FTPS_mud_rand" ID="{9B757190-8E08-4EE2-88D7-371A12F6BEE6}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="water" ID="{C77BC12A-E6EF-4519-BB81-FE1C0B2E7372}"/>
+								<ItemList>
+									<ItemRef Name="FTPS_water_rand" ID="{0081878A-895D-4412-B741-F03718CC9850}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="wood" ID="{CB5B545E-4DDE-49E9-9A22-8269D036649B}"/>
+								<ItemList>
+									<ItemRef Name="FTPS_wood_rand" ID="{2303C133-A14D-4E85-A97B-97E922C1AAAC}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="grass" ID="{A260B866-9E03-4F36-BF60-C4C1AD1DE173}"/>
+								<ItemList>
+									<ItemRef Name="FTPS_grass_rand" ID="{864F71AF-B3C0-4A58-9A1C-237E99649EA8}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="sand" ID="{BC327DF9-2C33-4C92-9937-DD2CB92FEAC1}"/>
+								<ItemList>
+									<ItemRef Name="FTPS_sand_rand" ID="{F9D3D0F1-5A88-4582-8024-C0BFE3D1BF77}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

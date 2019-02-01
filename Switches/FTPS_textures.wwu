@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{93DF6D09-6A05-4F06-8DCB-79F06FC82FED}" SchemaVersion="89">
+	<Switches>
+		<WorkUnit Name="FTPS_textures" ID="{93DF6D09-6A05-4F06-8DCB-79F06FC82FED}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="FTPS_textures_switchgroup" ID="{CA4ED240-03BA-491A-966E-56E5D8E629F4}">
+					<ChildrenList>
+						<Switch Name="sand" ID="{BC327DF9-2C33-4C92-9937-DD2CB92FEAC1}"/>
+						<Switch Name="grass" ID="{A260B866-9E03-4F36-BF60-C4C1AD1DE173}"/>
+						<Switch Name="stone" ID="{F16C1A0C-7DF5-4DB5-8F86-5D68EB71579F}"/>
+						<Switch Name="mud" ID="{73E01F28-7CA9-467F-B7C4-7B7AE9F9A39D}"/>
+						<Switch Name="wood" ID="{CB5B545E-4DDE-49E9-9A22-8269D036649B}"/>
+						<Switch Name="water" ID="{C77BC12A-E6EF-4519-BB81-FE1C0B2E7372}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

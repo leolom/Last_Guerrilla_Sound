@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{757F182F-46FF-485E-A2D3-3F7F69D82DB5}" SchemaVersion="89">
 	<AudioObjects>
-		<WorkUnit Name="Shaman_attacks" ID="{757F182F-46FF-485E-A2D3-3F7F69D82DB5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Shaman_attacks" ID="{757F182F-46FF-485E-A2D3-3F7F69D82DB5}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Shaman_attacks_blend" ID="{C051D5E7-20F3-4120-9E1C-3C8DF8EAAE22}" ShortID="7075342">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Shaman_attacks_grunts_rand" ID="{681B35EC-E074-4D20-B294-3590B4692078}" ShortID="955945464">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Shaman_attacks_rand" ID="{57346A73-4C00-4BA7-ABEE-2D58A2324D8C}" ShortID="263537347">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
