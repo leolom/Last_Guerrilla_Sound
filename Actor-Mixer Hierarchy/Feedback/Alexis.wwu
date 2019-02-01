@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8F327824-93EC-4FF5-B542-3D6E566E3DC7}" SchemaVersion="89">
 	<AudioObjects>
-		<WorkUnit Name="Alexis" ID="{8F327824-93EC-4FF5-B542-3D6E566E3DC7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Alexis" ID="{8F327824-93EC-4FF5-B542-3D6E566E3DC7}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="AttackOrderConfirmation_Rand" ID="{CD1DE845-5E71-439C-9EBC-2E1BA16FB1C5}" ShortID="955549956">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="GhoulsSelection_Rand" ID="{C2E4D3B5-5CAB-4508-A5DD-996D9EB5BCFE}" ShortID="1064374693">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="UnlockSpell_Rand" ID="{E090A590-31D4-452F-8F33-13C9F136E76D}" ShortID="67923845">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<SwitchContainer Name="SwarmBehaviour_Switch" ID="{257DA9F0-DC66-4D3C-A95B-6D44E6DDF15C}" ShortID="17721526">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="None" ID="{72E92A17-F9D2-4D37-8A2B-346EDF04BA85}" WorkUnitID="{5441583D-38B5-45F6-A866-4B79279D9952}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="SwarmBehaviour_State" ID="{5A029751-BEB8-4588-9253-FD656EF4F541}" WorkUnitID="{5441583D-38B5-45F6-A866-4B79279D9952}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="SwarmBehaviour_Agressive_Rand" ID="{7B8D209E-B40E-45D5-B9D9-68B872A4F77D}" ShortID="243645920">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SwarmBehaviour_Neutral_Rand" ID="{AE3696BB-7B28-4078-A690-EAB3254FA4CB}" ShortID="1066931739">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="SwarmBehaviour_Agressive_Rand" ID="{7B8D209E-B40E-45D5-B9D9-68B872A4F77D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="SwarmBehaviour_Neutral_Rand" ID="{AE3696BB-7B28-4078-A690-EAB3254FA4CB}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Agressive" ID="{3FFD3CA9-CC25-4D91-8FBD-41D64AFDF273}"/>
+								<ItemList>
+									<ItemRef Name="SwarmBehaviour_Agressive_Rand" ID="{7B8D209E-B40E-45D5-B9D9-68B872A4F77D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Neutral" ID="{523512DC-054F-473D-A4AD-B264FB2657B9}"/>
+								<ItemList>
+									<ItemRef Name="SwarmBehaviour_Neutral_Rand" ID="{AE3696BB-7B28-4078-A690-EAB3254FA4CB}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
