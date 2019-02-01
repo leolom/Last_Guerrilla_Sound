@@ -11,6 +11,9 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
 						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="FTPS_textures_switchgroup" ID="{CA4ED240-03BA-491A-966E-56E5D8E629F4}" WorkUnitID="{93DF6D09-6A05-4F06-8DCB-79F06FC82FED}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Ghoulsr_FTPS_Sand_Rand" ID="{3DC2AAAF-F7AF-43E7-AE11-0598978A2D77}" ShortID="1046684623">
@@ -95,6 +98,44 @@
 								<ItemRef Name="Ghoulsr_FTPS_Mud_Rand" ID="{CDFA7DFA-46C4-43A2-A716-D1E0AD06497E}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="stone" ID="{F16C1A0C-7DF5-4DB5-8F86-5D68EB71579F}"/>
+								<ItemList>
+									<ItemRef Name="Ghouls_FTPS_Stone_Rand" ID="{3F559A58-1F5F-4906-8D79-5AB1780F6783}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="mud" ID="{73E01F28-7CA9-467F-B7C4-7B7AE9F9A39D}"/>
+								<ItemList>
+									<ItemRef Name="Ghoulsr_FTPS_Mud_Rand" ID="{CDFA7DFA-46C4-43A2-A716-D1E0AD06497E}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="water" ID="{C77BC12A-E6EF-4519-BB81-FE1C0B2E7372}"/>
+								<ItemList>
+									<ItemRef Name="Ghouls_FTPS_Water_Rand" ID="{05B3F0A4-325A-463E-83B0-BB11F482F49C}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="wood" ID="{CB5B545E-4DDE-49E9-9A22-8269D036649B}"/>
+								<ItemList>
+									<ItemRef Name="Ghouls_FTPS_Wood_Rand" ID="{B4601703-9310-48A7-8489-C1178AAB7B9D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="grass" ID="{A260B866-9E03-4F36-BF60-C4C1AD1DE173}"/>
+								<ItemList>
+									<ItemRef Name="Ghouls_FTPS_Grass_Rand" ID="{4187BFAF-C18C-4589-90E5-43AB4D878C84}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="sand" ID="{BC327DF9-2C33-4C92-9937-DD2CB92FEAC1}"/>
+								<ItemList>
+									<ItemRef Name="Ghoulsr_FTPS_Sand_Rand" ID="{3DC2AAAF-F7AF-43E7-AE11-0598978A2D77}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
 			</ChildrenList>
