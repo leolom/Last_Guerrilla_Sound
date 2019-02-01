@@ -36,8 +36,8 @@ sysinfo.txt
 *.unitypackage
 
 # Wwise Cache data
-Last_Guerrilla_Sound_WwiseProject/.cache/
-Last_Guerrilla_Sound_WwiseProject/*.wsettings
-Last_Guerrilla_Sound_WwiseProject/*.validationcache
-Last_Guerrilla_Sound_WwiseProject/*.akd
-Last_Guerrilla_Sound_WwiseProject/*.prof
+Last_Guerrilla_Sound_/.cache/
+Last_Guerrilla_Sound_/*.wsettings
+Last_Guerrilla_Sound_/*.validationcache
+Last_Guerrilla_Sound_/*.akd
+Last_Guerrilla_Sound_/*.prof
