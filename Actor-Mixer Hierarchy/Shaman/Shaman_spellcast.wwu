@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{02E6EA87-A344-4620-BDE7-94F04071A688}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Shaman_spellcast" ID="{02E6EA87-A344-4620-BDE7-94F04071A688}" PersistMode="Standalone"/>
+	</AudioObjects>
+</WwiseDocument>

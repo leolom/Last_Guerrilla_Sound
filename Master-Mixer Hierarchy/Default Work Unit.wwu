@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47319796-97C2-4F63-95BE-03A2C33929AF}" SchemaVersion="89">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{47319796-97C2-4F63-95BE-03A2C33929AF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{A93615EC-2BA0-4E15-BE31-E56BDB1F5141}" WorkUnitID="{948E7FAB-07A1-4E16-B94F-D05C007BF460}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Feedbacks_Audio_Bus" ID="{2E44BA7D-387F-4FC4-A9CE-8B6602791748}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{A93615EC-2BA0-4E15-BE31-E56BDB1F5141}" WorkUnitID="{948E7FAB-07A1-4E16-B94F-D05C007BF460}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="AMB_Audio_Bus" ID="{4BFD201C-4C1C-4F32-B149-72E67A350BF2}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{A93615EC-2BA0-4E15-BE31-E56BDB1F5141}" WorkUnitID="{948E7FAB-07A1-4E16-B94F-D05C007BF460}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Music_Audio_Bus" ID="{822B65BE-EAD1-4E77-A9FF-5520652673EE}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{A93615EC-2BA0-4E15-BE31-E56BDB1F5141}" WorkUnitID="{948E7FAB-07A1-4E16-B94F-D05C007BF460}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Voice_Audio_Bus" ID="{24F2C35A-C246-478C-BC4D-332204C3A064}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{A93615EC-2BA0-4E15-BE31-E56BDB1F5141}" WorkUnitID="{948E7FAB-07A1-4E16-B94F-D05C007BF460}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Reverb_00_Bus" ID="{88BD3D99-2B05-4018-A960-1D732FDD3A17}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{A93615EC-2BA0-4E15-BE31-E56BDB1F5141}" WorkUnitID="{948E7FAB-07A1-4E16-B94F-D05C007BF460}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
