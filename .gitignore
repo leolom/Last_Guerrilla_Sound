@@ -36,8 +36,8 @@ sysinfo.txt
 *.unitypackage
 
 # Wwise Cache data
-TPGit_WwiseProject/.cache/
-TPGit_WwiseProject/*.wsettings
-TPGit_WwiseProject/*.validationcache
-TPGit_WwiseProject/*.akd
-TPGit_WwiseProject/*.prof
+Last_Guerrilla_Sound_WwiseProject/.cache/
+Last_Guerrilla_Sound_WwiseProject/*.wsettings
+Last_Guerrilla_Sound_WwiseProject/*.validationcache
+Last_Guerrilla_Sound_WwiseProject/*.akd
+Last_Guerrilla_Sound_WwiseProject/*.prof
