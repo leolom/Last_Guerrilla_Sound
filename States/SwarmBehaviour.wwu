@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5441583D-38B5-45F6-A866-4B79279D9952}" SchemaVersion="89" RootDocumentID="{0C61E459-3B78-4EEB-B320-2E367F5F52D5}">
+	<States>
+		<WorkUnit Name="SwarmBehaviour" ID="{5441583D-38B5-45F6-A866-4B79279D9952}" OwnerID="{0C61E459-3B78-4EEB-B320-2E367F5F52D5}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="SwarmBehaviour_State" ID="{5A029751-BEB8-4588-9253-FD656EF4F541}">
+					<ChildrenList>
+						<State Name="None" ID="{72E92A17-F9D2-4D37-8A2B-346EDF04BA85}"/>
+						<State Name="Agressive" ID="{3FFD3CA9-CC25-4D91-8FBD-41D64AFDF273}"/>
+						<State Name="Neutral" ID="{523512DC-054F-473D-A4AD-B264FB2657B9}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

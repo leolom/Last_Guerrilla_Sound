@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0C61E459-3B78-4EEB-B320-2E367F5F52D5}" SchemaVersion="89">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{0C61E459-3B78-4EEB-B320-2E367F5F52D5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0C61E459-3B78-4EEB-B320-2E367F5F52D5}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="SwarmBehaviour" ID="{5441583D-38B5-45F6-A866-4B79279D9952}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
