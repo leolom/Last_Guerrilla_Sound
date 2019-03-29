@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ECDC58A3-48B9-4762-8770-1736C0F6AF7B}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Hallebardier" ID="{ECDC58A3-48B9-4762-8770-1736C0F6AF7B}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

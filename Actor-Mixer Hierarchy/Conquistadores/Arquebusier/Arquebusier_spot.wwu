@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8432BA64-1A26-4B2B-8D4E-9A61597EAD21}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Arquebusier_spot" ID="{8432BA64-1A26-4B2B-8D4E-9A61597EAD21}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Arquebusier_Spot_player_blend" ID="{B994343A-942F-44AA-9562-E0E39C28C617}" ShortID="222051802">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Spot_player_voice_rand" ID="{BE234A0A-3D24-4279-90FC-0A6C1917BBC4}" ShortID="789968471">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LG_Conquistador_Arquebusier1_SpotPlayer_01" ID="{40619248-08AF-40C1-96E3-61A1CAC3C17A}" ShortID="356695228">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_01" ID="{B14FFD65-C403-4C78-87CC-D740FA1AFB6F}" ShortID="669499452">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier1_SpotPlayer_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_01" ID="{B14FFD65-C403-4C78-87CC-D740FA1AFB6F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier1_SpotPlayer_02" ID="{1C12AB3A-E113-4E22-81E6-EC0F7A9DB3F8}" ShortID="206002357">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_02" ID="{413035E9-1A85-42B2-A887-BB622140C0C8}" ShortID="970497392">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier1_SpotPlayer_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_02" ID="{413035E9-1A85-42B2-A887-BB622140C0C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier1_SpotPlayer_03" ID="{A2807D56-3448-47C7-A9C3-260AC8B6ABDE}" ShortID="927708245">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_03" ID="{2F2A2EA7-051A-4D43-8396-DB98469240C7}" ShortID="206445633">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier1_SpotPlayer_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_03" ID="{2F2A2EA7-051A-4D43-8396-DB98469240C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier1_SpotPlayer_04" ID="{75202D74-F1A5-422A-9663-B33B1C566A05}" ShortID="536358146">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_04" ID="{3DCFC9B7-1907-4024-BD6C-D692D095DA2E}" ShortID="978546279">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier1_SpotPlayer_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_04" ID="{3DCFC9B7-1907-4024-BD6C-D692D095DA2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier1_SpotPlayer_05" ID="{8F6162EB-99A5-4F7B-BD46-816490BC1290}" ShortID="163546594">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_05" ID="{1C4708D4-E26B-405E-A5EF-7F8A102AA86B}" ShortID="666219231">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier1_SpotPlayer_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_05" ID="{1C4708D4-E26B-405E-A5EF-7F8A102AA86B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier1_SpotPlayer_06" ID="{016EF9B1-71C5-4199-805A-C13F31E65597}" ShortID="711692646">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_06" ID="{E6B08704-B7CC-428B-AF47-05A7461F89B9}" ShortID="439919212">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier1_SpotPlayer_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_06" ID="{E6B08704-B7CC-428B-AF47-05A7461F89B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier1_SpotPlayer_07" ID="{026140D3-DECE-4B2C-B0E6-CD7782B8699D}" ShortID="885912827">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>70</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_07" ID="{270E5C18-8053-4226-92CB-497CD8EA7E71}" ShortID="577006092">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier1_SpotPlayer_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier1_SpotPlayer_07" ID="{270E5C18-8053-4226-92CB-497CD8EA7E71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_01" ID="{EB5EC74A-2C9E-4410-B23A-3B6031BD4CF0}" ShortID="703076631">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_01" ID="{CD59444C-6065-480F-99C9-64F6660A5D95}" ShortID="587637674">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_01" ID="{CD59444C-6065-480F-99C9-64F6660A5D95}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_02" ID="{03C6BDF8-BF53-4401-9B44-4E1C4E95A5EE}" ShortID="37095909">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_02" ID="{6AED101C-8C44-4AD4-84A6-3BD75E92121F}" ShortID="844281219">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_02" ID="{6AED101C-8C44-4AD4-84A6-3BD75E92121F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_03" ID="{732E3349-E25B-45F3-B4A1-CAD4208FDD6C}" ShortID="600550893">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_03" ID="{5FD14E19-9B4B-4A52-B069-E59204B7988E}" ShortID="1006566174">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_03" ID="{5FD14E19-9B4B-4A52-B069-E59204B7988E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_04" ID="{0637847C-D955-4E9A-BE26-7BA56CE309C1}" ShortID="112967408">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_04" ID="{1A4D1DD5-9042-4D86-BBFD-5B261EBF68B5}" ShortID="1054670351">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_04" ID="{1A4D1DD5-9042-4D86-BBFD-5B261EBF68B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_05" ID="{6E44D160-B4EF-4FA1-A900-71C608CE3D44}" ShortID="95785679">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_05" ID="{D1CA8FC5-D079-49F4-A1C6-B0FD4F7852D9}" ShortID="899810310">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_05" ID="{D1CA8FC5-D079-49F4-A1C6-B0FD4F7852D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_06" ID="{EC3DD4D8-9F9C-4DB1-B904-6DD67200D585}" ShortID="111204513">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_06" ID="{775AFC73-7D21-4E38-A448-42A4F2D8B134}" ShortID="309239934">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_06" ID="{775AFC73-7D21-4E38-A448-42A4F2D8B134}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_07" ID="{AB782550-E836-4C78-98F8-ACCA61B2717C}" ShortID="1024957639">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_07" ID="{A33A3F47-719A-48FB-8F79-F839D57CC690}" ShortID="181880530">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_07" ID="{A33A3F47-719A-48FB-8F79-F839D57CC690}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_08" ID="{D176E121-9906-4372-BBE6-77A80D16972D}" ShortID="1034810363">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_08" ID="{4031689A-AFC9-459A-9F88-778EF21F39BF}" ShortID="985079471">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_08" ID="{4031689A-AFC9-459A-9F88-778EF21F39BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_09" ID="{8753E373-DD4D-408F-8C06-BC287E0D587E}" ShortID="944401788">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_09" ID="{950C4AFF-6155-4232-9982-920D07EB3155}" ShortID="590249161">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_09.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_09" ID="{950C4AFF-6155-4232-9982-920D07EB3155}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_10" ID="{8C2B9088-30E6-49EE-B7A3-A5D6696687D7}" ShortID="157167387">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_10" ID="{70F6A1D1-FA3C-4553-B24A-189C55360809}" ShortID="137717309">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_10" ID="{70F6A1D1-FA3C-4553-B24A-189C55360809}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_11" ID="{5D3A9816-84CD-4DE9-864A-F9D1ECA6EDCA}" ShortID="403175219">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_11" ID="{8213E465-91BA-4CBF-B607-A5E877CED8C1}" ShortID="742472736">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_11.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_11" ID="{8213E465-91BA-4CBF-B607-A5E877CED8C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_12" ID="{091B86CD-5F8E-47E8-9DCD-48705D382420}" ShortID="899627173">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_12" ID="{137AD123-6952-445A-9FA5-C25F8057B9A6}" ShortID="204000826">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_12.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_12" ID="{137AD123-6952-445A-9FA5-C25F8057B9A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_13" ID="{925DF9A3-11E8-46FF-81CC-9B8BAADBA9EE}" ShortID="943836543">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_13" ID="{64C645A7-A88D-40C0-B9C3-4C52A29556F6}" ShortID="577543591">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_13.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_13" ID="{64C645A7-A88D-40C0-B9C3-4C52A29556F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_14" ID="{8A721663-4DE3-44D7-87D0-552FB9A7BBB7}" ShortID="990266390">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_14" ID="{CDB87149-6E6F-4FE6-99A3-153F63EA2DED}" ShortID="35269336">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_14.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_14" ID="{CDB87149-6E6F-4FE6-99A3-153F63EA2DED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_15" ID="{1AE108FB-AB3F-430B-94BB-B8F2FF5AF102}" ShortID="712353102">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_15" ID="{88F9317E-042D-4C48-97A6-FFF5344FDB44}" ShortID="250877762">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_15.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_15" ID="{88F9317E-042D-4C48-97A6-FFF5344FDB44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_16" ID="{2941D2F8-172A-4A85-B338-3F6206EC79E2}" ShortID="593709044">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_16" ID="{C9778320-B657-4A52-925C-32C01FAC26BB}" ShortID="795405836">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_16.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_16" ID="{C9778320-B657-4A52-925C-32C01FAC26BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LG_Conquistador_Arquebusier2_SpotPlayer_17" ID="{D4F63B60-09F3-43B2-A561-EFB969E9A966}" ShortID="278710253">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_17" ID="{2264A970-3A31-4B6F-9297-11BF8699655A}" ShortID="80298691">
+											<Language>SFX</Language>
+											<AudioFile>LG_Conquistador_Arquebusier2_SpotPlayer_17.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LG_Conquistador_Arquebusier2_SpotPlayer_17" ID="{2264A970-3A31-4B6F-9297-11BF8699655A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Spot_player_sfx_rand" ID="{F3FB6426-B450-4C7E-BF3F-ABAE938ED216}" ShortID="478922873">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3E4C98E-B2C3-425D-B897-2C9551D22E9B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47319796-97C2-4F63-95BE-03A2C33929AF}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
