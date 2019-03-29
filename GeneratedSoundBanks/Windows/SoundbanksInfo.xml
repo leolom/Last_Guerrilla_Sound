@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\</ProjectRoot>
+		<SourceFilesRoot>D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4080000834" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Conquistadors</ObjectPath>
+			<ShortName>SB_Conquistadors</ShortName>
+			<Path>SB_Conquistadors.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2742238431" Name="Arquebusier_spotplayer" ObjectPath="\Events\Conquistadors\Arquebusier\Arquebusier_spotplayer"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="35269336" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_14.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_14_56D34C19.wem</Path>
+				</File>
+				<File Id="80298691" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_17.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_17_56D34C19.wem</Path>
+				</File>
+				<File Id="137717309" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_10.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_10_56D34C19.wem</Path>
+				</File>
+				<File Id="181880530" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_07.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_07_56D34C19.wem</Path>
+				</File>
+				<File Id="204000826" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_12.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_12_56D34C19.wem</Path>
+				</File>
+				<File Id="206445633" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier1_SpotPlayer_03.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier1_SpotPlayer_03_56D34C19.wem</Path>
+				</File>
+				<File Id="250877762" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_15.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_15_56D34C19.wem</Path>
+				</File>
+				<File Id="309239934" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_06.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_06_56D34C19.wem</Path>
+				</File>
+				<File Id="439919212" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier1_SpotPlayer_06.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier1_SpotPlayer_06_56D34C19.wem</Path>
+				</File>
+				<File Id="577006092" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier1_SpotPlayer_07.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier1_SpotPlayer_07_56D34C19.wem</Path>
+				</File>
+				<File Id="577543591" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_13.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_13_56D34C19.wem</Path>
+				</File>
+				<File Id="587637674" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_01.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_01_56D34C19.wem</Path>
+				</File>
+				<File Id="590249161" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_09.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_09_56D34C19.wem</Path>
+				</File>
+				<File Id="666219231" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier1_SpotPlayer_05.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier1_SpotPlayer_05_56D34C19.wem</Path>
+				</File>
+				<File Id="669499452" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier1_SpotPlayer_01.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier1_SpotPlayer_01_56D34C19.wem</Path>
+				</File>
+				<File Id="742472736" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_11.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_11_56D34C19.wem</Path>
+				</File>
+				<File Id="795405836" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_16.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_16_56D34C19.wem</Path>
+				</File>
+				<File Id="844281219" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_02.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_02_56D34C19.wem</Path>
+				</File>
+				<File Id="899810310" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_05.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_05_56D34C19.wem</Path>
+				</File>
+				<File Id="970497392" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier1_SpotPlayer_02.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier1_SpotPlayer_02_56D34C19.wem</Path>
+				</File>
+				<File Id="978546279" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier1_SpotPlayer_04.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier1_SpotPlayer_04_56D34C19.wem</Path>
+				</File>
+				<File Id="985079471" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_08.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_08_56D34C19.wem</Path>
+				</File>
+				<File Id="1006566174" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_03.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_03_56D34C19.wem</Path>
+				</File>
+				<File Id="1054670351" Language="SFX">
+					<ShortName>LG_Conquistador_Arquebusier2_SpotPlayer_04.wav</ShortName>
+					<Path>SFX\LG_Conquistador_Arquebusier2_SpotPlayer_04_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

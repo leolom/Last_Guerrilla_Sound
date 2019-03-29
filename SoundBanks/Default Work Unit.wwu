@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8D08DFD6-D5ED-486C-9AE4-BAD43334EE04}" SchemaVersion="89">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{8D08DFD6-D5ED-486C-9AE4-BAD43334EE04}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8D08DFD6-D5ED-486C-9AE4-BAD43334EE04}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SB_Conquistadors" ID="{E40379B8-5619-420E-A3A0-64B79CE5F1A9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Arquebusier_spotplayer" ID="{6578ED17-7FC7-4759-9CED-E57F8CC44C25}" WorkUnitID="{5131F6E9-F22A-4F3B-8DBE-607E05A687FE}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

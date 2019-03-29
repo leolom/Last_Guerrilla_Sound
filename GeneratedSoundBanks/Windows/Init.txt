@@ -1,0 +1,27 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	651018122	SwarmBehaviour_State			\SwarmBehaviour\SwarmBehaviour_State	
+	1580058635	Conquistadores_status_stategroup			\Conquistadores_status\Conquistadores_status_stategroup	
+
+State	ID	Name	State Group			Notes
+	0	None	SwarmBehaviour_State			
+	670611050	Neutral	SwarmBehaviour_State			
+	4251348366	Agressive	SwarmBehaviour_State			
+	0	None	Conquistadores_status_stategroup			
+	1064328332	player_spotted	Conquistadores_status_stategroup			
+	2540564867	idle_5	Conquistadores_status_stategroup			
+	2540564868	idle_2	Conquistadores_status_stategroup			
+	2540564871	idle_1	Conquistadores_status_stategroup			
+	3910350773	idle_10	Conquistadores_status_stategroup			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	519632571	Reverb_00_Bus			\Default Work Unit\Reverb_00_Bus	
+	3009991841	Voice_Audio_Bus			\Default Work Unit\Voice_Audio_Bus	
+	3675531030	Music_Audio_Bus			\Default Work Unit\Music_Audio_Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3852694771	Feedbacks_Audio_Bus			\Default Work Unit\Feedbacks_Audio_Bus	
+	4175353075	AMB_Audio_Bus			\Default Work Unit\AMB_Audio_Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5131F6E9-F22A-4F3B-8DBE-607E05A687FE}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Arquebusier" ID="{5131F6E9-F22A-4F3B-8DBE-607E05A687FE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Arquebusier_spotplayer" ID="{6578ED17-7FC7-4759-9CED-E57F8CC44C25}">
+					<ChildrenList>
+						<Action Name="" ID="{9D9DD8F1-7719-4D49-A600-7867CCDC9105}" ShortID="470987934">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Arquebusier_Spot_player_blend" ID="{B994343A-942F-44AA-9562-E0E39C28C617}" WorkUnitID="{8432BA64-1A26-4B2B-8D4E-9A61597EAD21}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
