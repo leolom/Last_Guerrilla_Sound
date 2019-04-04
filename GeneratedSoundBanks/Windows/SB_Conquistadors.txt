@@ -1,6 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2742238431	Arquebusier_spotplayer			\Conquistadors\Arquebusier\Arquebusier_spotplayer	
 
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	691947550	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Conquistadores\Arquebusier\Arquebusier_spot\Arquebusier_Spot_player_blend\Spot_player_sfx_rand\silence\Wwise Silence	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	35269336	LG_Conquistador_Arquebusier2_SpotPlayer_14	D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\.cache\Windows\SFX\LG_Conquistador_Arquebusier2_SpotPlayer_14_56D34C19.wem		\Actor-Mixer Hierarchy\Conquistadores\Arquebusier\Arquebusier_spot\Arquebusier_Spot_player_blend\Spot_player_voice_rand\LG_Conquistador_Arquebusier2_SpotPlayer_14		241728
 	80298691	LG_Conquistador_Arquebusier2_SpotPlayer_17	D:\Augustin\GitHub_projects\Last_Guerrilla_Sound\.cache\Windows\SFX\LG_Conquistador_Arquebusier2_SpotPlayer_17_56D34C19.wem		\Actor-Mixer Hierarchy\Conquistadores\Arquebusier\Arquebusier_spot\Arquebusier_Spot_player_blend\Spot_player_voice_rand\LG_Conquistador_Arquebusier2_SpotPlayer_17		177216
